@@ -21,6 +21,9 @@
 		E7CF02AB1B82E55400891E34 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF029E1B82E55400891E34 /* CTFrameParserConfig.m */; };
 		E7CF02AC1B82E55400891E34 /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF02A11B82E55400891E34 /* UIView+frameAdjust.m */; };
 		E7CF02AD1B82E55400891E34 /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF02A41B82E55400891E34 /* CTDisplayView.m */; };
+		E7CF02BD1B833B2F00891E34 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF02BC1B833B2F00891E34 /* ViewController3.m */; };
+		E7CF02C11B833B3900891E34 /* DyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF02C01B833B3900891E34 /* DyTextView.m */; };
+		E7CF02C41B833B4D00891E34 /* UITextView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF02C31B833B4D00891E34 /* UITextView+Addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		E7CF02A11B82E55400891E34 /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
 		E7CF02A31B82E55400891E34 /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
 		E7CF02A41B82E55400891E34 /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		E7CF02BB1B833B2F00891E34 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		E7CF02BC1B833B2F00891E34 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		E7CF02BF1B833B3900891E34 /* DyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DyTextView.h; sourceTree = "<group>"; };
+		E7CF02C01B833B3900891E34 /* DyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DyTextView.m; sourceTree = "<group>"; };
+		E7CF02C21B833B4D00891E34 /* UITextView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Addition.h"; sourceTree = "<group>"; };
+		E7CF02C31B833B4D00891E34 /* UITextView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,9 @@
 		E7CF02681B82E4A200891E34 /* WHCoreText */ = {
 			isa = PBXGroup;
 			children = (
+				E7CF02C21B833B4D00891E34 /* UITextView+Addition.h */,
+				E7CF02C31B833B4D00891E34 /* UITextView+Addition.m */,
+				E7CF02BE1B833B3900891E34 /* views2 */,
 				E7CF028F1B82E55400891E34 /* Controllers */,
 				E7CF02941B82E55400891E34 /* Models */,
 				E7CF02A01B82E55400891E34 /* UIView+frameAdjust.h */,
@@ -148,6 +160,8 @@
 		E7CF028F1B82E55400891E34 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E7CF02BB1B833B2F00891E34 /* ViewController3.h */,
+				E7CF02BC1B833B2F00891E34 /* ViewController3.m */,
 				E7CF02901B82E55400891E34 /* ViewController.h */,
 				E7CF02911B82E55400891E34 /* ViewController.m */,
 				E7CF02921B82E55400891E34 /* ViewController2.h */,
@@ -180,6 +194,15 @@
 				E7CF02A41B82E55400891E34 /* CTDisplayView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E7CF02BE1B833B3900891E34 /* views2 */ = {
+			isa = PBXGroup;
+			children = (
+				E7CF02BF1B833B3900891E34 /* DyTextView.h */,
+				E7CF02C01B833B3900891E34 /* DyTextView.m */,
+			);
+			path = views2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +306,10 @@
 			files = (
 				E7CF02A71B82E55400891E34 /* CoreTextData.m in Sources */,
 				E7CF02AA1B82E55400891E34 /* CTFrameParser.m in Sources */,
+				E7CF02BD1B833B2F00891E34 /* ViewController3.m in Sources */,
 				E7CF02AB1B82E55400891E34 /* CTFrameParserConfig.m in Sources */,
 				E7CF02A81B82E55400891E34 /* CTDataEntity.m in Sources */,
+				E7CF02C41B833B4D00891E34 /* UITextView+Addition.m in Sources */,
 				E7CF02A91B82E55400891E34 /* CTDataLinkEntity.m in Sources */,
 				E7CF02A51B82E55400891E34 /* ViewController.m in Sources */,
 				E7CF02A61B82E55400891E34 /* ViewController2.m in Sources */,
@@ -292,6 +317,7 @@
 				E7CF02AD1B82E55400891E34 /* CTDisplayView.m in Sources */,
 				E7CF026F1B82E4A200891E34 /* AppDelegate.m in Sources */,
 				E7CF026C1B82E4A200891E34 /* main.m in Sources */,
+				E7CF02C11B833B3900891E34 /* DyTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,5 +25,8 @@
  */
 @property (nonatomic, assign) NSInteger length;
 
-
+/**
+ *  类型
+ */
+@property (nonatomic, copy) NSString *type;
 @end
